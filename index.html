@@ -45,6 +45,8 @@
             placeholder="Insira a autoria ou fonte"
             required
           />
+          <label for="pensamento-data">Data</label>
+          <input type="date" id="pensamento-data" required />
           <div class="form-botoes">
             <button type="submit" id="botao-salvar">Salvar</button>
             <button type="button" id="botao-cancelar">Cancelar</button>
@@ -54,6 +56,14 @@
       <span></span>
       <section id="lista-pensamentos-container">
         <h3>Meu Mural</h3>
+        <section id="busca-container">
+          <input
+            type="text"
+            id="campo-busca"
+            placeholder="O que você procura?"
+          />
+          <img class="lupa" src="assets/imagens/lupa.png" alt="" />
+        </section>
         <div id="mensagem-vazia" class="mensagem-vazia">
           <img
             src="assets/imagens/lista-vazia.png"
